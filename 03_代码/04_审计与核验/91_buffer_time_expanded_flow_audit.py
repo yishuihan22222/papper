@@ -1,0 +1,135 @@
+"""Audit whether the new buffer diagnostic is a standard time-expanded flow."""
+from pathlib import Path
+from itertools import product
+import importlib.util
+import csv
+import hashlib
+import json
+import numpy as np
+from scipy.optimize import linprog
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / '项目结果/dynamic_buffer_flow_equivalence_20261018'
+DOC = ROOT / '项目文档/动态缓冲与标准费用流等价性审计_20261018.md'
+SOURCE = Path(__file__).with_name('90_dynamic_buffer_tradeoff_audit.py')
+
+
+def sha(p):
+    return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+
+
+def dump(d, p):
+    p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding='utf-8')
+
+
+def flow_value(arrivals, b, hold):
+    """r,s,q per time, independent continuous LP, no use of DP transitions."""
+    d = np.asarray(arrivals, dtype=float)
+    n = len(d)
+    # Conservation at time t: r_t+s_t+q_t-q_(t-1)=D_t.
+    a = np.zeros((n, 3 * n))
+    for t in range(n):
+        a[t, t] = a[t, n + t] = a[t, 2 * n + t] = 1
+        if t:
+            a[t, 2 * n + t - 1] = -1
+    c = np.r_[np.full(n, 10.), np.zeros(n), np.full(n - 1, float(hold)), 10.]
+    bounds = [(0, float(x)) for x in d] + [(0, 1)] * n + [(0, b)] * n
+    result = linprog(c, A_eq=a, b_eq=d, bounds=bounds, method='highs')
+    assert result.success, result.message
+    assert np.max(np.abs(a @ result.x - d)) < 1e-8
+    assert np.max(np.abs(result.x - np.round(result.x))) < 1e-8
+    return float(result.fun)
+
+
+def main():
+    OUT.mkdir(parents=True, exist_ok=True)
+    spec = importlib.util.spec_from_file_location('buffer_diagnostic_90', SOURCE)
+    core = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(core)
+    previous = ROOT / '项目结果/dynamic_buffer_tradeoff_audit_20261018/90_completion.json'
+    prev = json.loads(previous.read_text(encoding='utf-8'))
+    for p, h in prev['files'].items():
+        assert sha(ROOT / p) == h
+    design = dict(source_sha256=sha(__file__), dp_source_sha256=sha(SOURCE),
+                  prior_completion_sha256=sha(previous), horizon=4,
+                  arrivals_per_slot=[0, 1, 2], buffers=[1, 2],
+                  holding_ticks=[0, 1, 20], drain_slots=[0, 2],
+                  purpose='Structural equivalence audit, no algorithm novelty claim')
+    p = OUT / '91_design.json'
+    if p.exists():
+        assert json.loads(p.read_text(encoding='utf-8')) == design
+    else:
+        dump(design, p)
+    rows = []
+    for original in product(range(3), repeat=4):
+        for drain in (0, 2):
+            arrivals = original + (0,) * drain
+            for b in (1, 2):
+                for h in (0, 1, 20):
+                    dp = core.solve(arrivals, b, h)(0, 0)[0]
+                    flow = flow_value(arrivals, b, h)
+                    assert abs(flow - dp) < 1e-7
+                    rows.append(dict(arrivals_json=json.dumps(arrivals), buffer=b,
+                                     holding_ticks=h, drain_slots=drain,
+                                     dp_cost_ticks=dp, flow_cost_ticks=flow, passed=True))
+    with (OUT / '91a_dp_flow_equivalence.csv').open('w', newline='', encoding='utf-8-sig') as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+    report = f'''# 动态缓冲与标准费用流等价性审计
+
+日期：2026-10-18。基于90号有限缓冲小例，未修改正文、原模型或90号实验。目的不是增加算法名称，而是防止再次把标准优化问题包装成硬创新。
+
+## 1. 结论
+
+90号确定性、同质货物、单设施、固定处理能力和线性代价的缓冲问题，可以写成标准时间展开最小费用流。Bellman精确解提供正确性基线，不是新方法。
+
+本次检查{len(rows)}个预先固定配置，动态规划与独立连续线性规划最优值全部一致；LP解满足守恒和整数性检查。这些数值是解析表示的核对，不代替证明，更不是现实验证。
+
+## 2. 等价表示
+
+每个时段设一个节点。新到达D_t为节点供给。三个出流是拒收r_t、实际处理s_t、流向下一时段的库存q_t。守恒为
+
+    r_t + s_t + q_t - q_(t-1) = D_t,    q_(-1)=0.
+
+约束为0<=r_t<=D_t、0<=s_t<=K_t、0<=q_t<=B。拒收弧容量D_t且单位费用lambda；处理弧容量K_t且费用0；持有弧容量B且单位费用h；最后一期剩余库存经终端弧流出，单位费用lambda。拒收上界避免把接受后的库存任意免费清退；同质货物下不区分批次身份。
+
+目标为lambda*sum(r)+h*sum(t<T-1)q_t+lambda*q_(T-1)，与90号模型完全一致。除末期库存弧流入终端外，其余弧均可接向公共汇点或下一时段节点。整数供给和容量给出网络流的整数最优解，因此连续LP足够，不必另用整数规划器。
+
+LP没有强制“能处理就处理”。但在同质货物、非负持有费、无处理成本、无处理诱发失效的本模型内，提前完成已接收货不增加拒收或库存，且只释放未来能力。因此存在工作守恒的最优调度，可以满足90号的s_t=min(K_t,Q_t+a_t)。两种形式的最优目标相等，不要求每个等价最优解逐时动作相同。
+
+## 3. 试金石结果
+
+- 加入队列后，静态C的“终态服务上界”不能直接沿用至新目标；队列确实可以保留随后能完成的货。
+- 但是，确定性缓冲控制仍然是标准费用流。它解决了原模型缺少收益表达的问题，没有自动提供非平凡算法创新。
+- 更大网络本身不保证跳出这一结构。在容量、可达关系和风险导致的可用节点时序事先固定，运输、持有与拒收仍是线性约束和费用时，很多扩展仍可时间展开求流；具体形式需单独核对，不能笼统宣称所有网络版本都等价。
+- 动态最优不劣于不使用缓冲的政策，也可由可行域包含直接解释；再次重复这一点不能作为主要发现。
+
+## 4. 对后续工作的约束
+
+应把标准费用流保留为强基线。若继续建立双机制动态版本，先审计派入动作如何改变未来状态、风险或可用能力，再决定是否需要新算法。若风险闭包完全预先给定，复杂优化器可能仍无必要。
+
+只有业务依据充分时，才研究有状态的设施退化、真实可解释的承诺/时效约束、决策相关风险或受限信息等问题。这些条件也不自动构成创新，仍需与最接近标准方法比较。不能为逃离费用流而人为增加非线性、恢复旧的util风险混合项或挑选有利参数。
+
+当前可交付的是一套更清楚的状态与账本、正反小例、精确最优对照和标准问题识别；尚未建立实证标定的物流退出机制，也未形成新的双机制动态算法。
+
+## 5. 核验范围
+
+到达序列完整枚举0/1/2四期，共81种；B取1/2；持有费取0、0.1、2；分别保留原时域和追加2个无到达时段，合计{len(rows)}个配置。独立LP不调用90号状态转移函数，不使用DP输出构造目标或约束，仅在求解后比较最优值。使用SciPy HiGHS。
+
+本轮是特定本地模型的结构审计，不是穷尽文献查新，不宣称标准费用流的理论新颖性。所有新增文件单独保存，旧结果保留。
+'''
+    DOC.write_text(report, encoding='utf-8')
+    (OUT / DOC.name).write_text(report, encoding='utf-8')
+    for p, h in prev['files'].items():
+        assert sha(ROOT / p) == h
+    completion = dict(completed=True, configurations=len(rows), passed=len(rows),
+                      standard_flow_equivalence=True, new_algorithm_claim=False,
+                      manuscript_changed=False, prior_experiment_preserved=True,
+                      files={str(p.relative_to(ROOT)): sha(p) for p in [Path(__file__), DOC, *sorted(OUT.glob('*'))] if p.is_file() and p.name != '91_completion.json'})
+    dump(completion, OUT / '91_completion.json')
+    print(json.dumps({k: v for k, v in completion.items() if k != 'files'}, ensure_ascii=False))
+
+
+if __name__ == '__main__':
+    main()

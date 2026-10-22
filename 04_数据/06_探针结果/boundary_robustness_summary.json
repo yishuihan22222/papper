@@ -1,0 +1,9 @@
+{
+  "additional_independent_checks": 104,
+  "all_passed": true,
+  "fixed_unit_load_checks": 50,
+  "before_deadline_recovery_checks": 50,
+  "positive_receiving_capacity_checks": 4,
+  "targeted_structural_diagnostics": true,
+  "empirical_frequency_estimated": false
+}

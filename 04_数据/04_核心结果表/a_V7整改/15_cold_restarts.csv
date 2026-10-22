@@ -1,0 +1,9 @@
+﻿scope,capacity_id,arm,identical
+matched246,baseline,B,True
+matched246,baseline,C,True
+candidate_induced,baseline,B,True
+candidate_induced,baseline,C,True
+candidate_fixed_degree,baseline,B,True
+candidate_fixed_degree,baseline,C,True
+candidate_corrected_family,baseline,B,True
+candidate_corrected_family,baseline,C,True

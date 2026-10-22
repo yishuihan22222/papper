@@ -1,0 +1,17 @@
+{
+  "completed": true,
+  "closures": 2424,
+  "run_checks": 13512,
+  "independent_checks": 31951,
+  "independent_passed": 31951,
+  "lp_regressions": 168,
+  "cold_starts": 12,
+  "tie_conditions_changed_service": 34,
+  "max_abs_tie_service_change_pp": 0.8009170098693175,
+  "external_business_evidence": true,
+  "quantitative_external_validation": false,
+  "wuhan_permissions_verified": false,
+  "synthetic_unique_grid_topologies": 1,
+  "synthetic_unique_ba_topologies": 10,
+  "empirical_samples": 0
+}

@@ -1,0 +1,20 @@
+{
+  "horizon_lag_configurations": 10,
+  "independent_milp_checks": 50,
+  "all_passed": true,
+  "checked_horizons": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "proven_family": "H >= 3; 1 <= L <= H-2; x=H-1; K=1; R in {1,H}",
+  "critical_lookahead": "H-1",
+  "empirical_validation": false,
+  "novelty_relative_to_literature_established": false,
+  "objective": "sum of diversion over four equally weighted scenarios",
+  "source_sha256": {
+    "pilot.py": "2b4dcba89e7089586dccf1a87948b874b62f447574371da005bc37e64d615bd4",
+    "uncertain_capacity.py": "663dbc84840c40c417231d6ab6ac6905be805ef9b591caacf0ca52dec6cfd7d0"
+  }
+}

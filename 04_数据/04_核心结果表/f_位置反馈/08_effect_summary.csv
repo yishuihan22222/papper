@@ -1,0 +1,17 @@
+﻿contrast,domain,mechanism,pairs,improved,tied,worsened,mean_delta_pp,max_abs_delta_pp,first_seed_different,final_set_different
+primary,geographic_proxy,both,168,0,167,1,-0.003781864328332044,0.6353532071597834,6,1
+primary,geographic_proxy,overload_only,168,0,166,2,-0.007563728656664088,0.6353532071597834,6,2
+primary,geographic_proxy,risk_only,168,0,168,0,0.0,0.0,0,0
+primary,geographic_proxy,neither,168,0,168,0,0.0,0.0,0,0
+primary,synthetic,both,480,0,480,0,0.0,0.0,30,0
+primary,synthetic,overload_only,480,0,476,4,-0.2659243819536712,61.771276088775515,30,4
+primary,synthetic,risk_only,480,0,480,0,0.0,0.0,0,0
+primary,synthetic,neither,480,0,480,0,0.0,0.0,0,0
+secondary,geographic_proxy,both,168,3,165,0,0.011345592984996131,0.6353532071597834,6,3
+secondary,geographic_proxy,overload_only,168,6,162,0,0.022691185969992263,0.6353532071597834,6,6
+secondary,geographic_proxy,risk_only,168,0,168,0,0.0,0.0,0,0
+secondary,geographic_proxy,neither,168,0,168,0,0.0,0.0,0,0
+secondary,synthetic,both,480,0,480,0,0.0,0.0,29,0
+secondary,synthetic,overload_only,480,2,478,0,0.030490653787437667,7.31775690898504,30,4
+secondary,synthetic,risk_only,480,0,480,0,0.0,0.0,0,0
+secondary,synthetic,neither,480,0,480,0,0.0,0.0,0,0

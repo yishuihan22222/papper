@@ -1,0 +1,4 @@
+﻿group_id,parent_id,child_id,action,basis,capacity_sum,physical_duplicate_confirmed
+H01,维龙物流园@@鄂州市@@华容区,维龙物流园2号库@@鄂州市@@华容区,parent_reference_only_child_retained,同名园区与2号库，原坐标相距约23米；仅处理层级代表重叠，不宣称库区库存完全相同,False,False
+H02,鸿翔路广浔智慧物流园@@孝感市@@孝昌县,德邦快递(孝感孝昌县广浔物流园经营分部)@@孝感市@@孝昌县,child_reference_only_parent_retained,子点原地址明确为广浔物流园内；园区整体与内部处理网点不同时独立赋能,False,False
+H03,英山县综合物流园@@黄冈市@@英山县,英山圆通速递分拣中心@@黄冈市@@英山县,parent_reference_only_child_retained,子点原地址明确英山综合物流园；保留分拣点，园区整体移为层级参考,False,False

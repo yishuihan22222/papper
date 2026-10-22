@@ -1,0 +1,7 @@
+id,title,year,doi,source,read_scope,overlap,required_increment
+L1,"The interplay of network structure and dispatch solutions in power grid cascading failures",2016,10.1063/1.4967736,https://aip.scitation.org/doi/pdf/10.1063/1.4967736,"出版社检索文本含摘要和引言；直接PDF403","等费用最优调度解与网络结构改变级联风险已有研究","不能把多解影响本身当新发现；须有新的可靠性保证或业务问题"
+L2,"Ability paradox of cascading model based on betweenness",2015,10.1038/srep13939,https://www.nature.com/articles/srep13939,"出版社检索摘要及模型文字；直接打开重定向失败","提高能力不保证更强鲁棒性的反常现象已有研究","区分K与gamma；需说明新条件或新保证而非同类反常命名"
+L3,"Cascade control and defense in complex networks",2004,10.1103/PhysRevLett.93.098701,https://arxiv.org/abs/cond-mat/0401074,"作者arXiv摘要和期刊DOI核实","选择性进一步移除可抑制过载级联已有研究","不能将免费削减降低损失直接当新控制思想；该模型非物流拒收"
+L4,"Robustness of flow networks against cascading failures under partial load redistribution",2018,10.48550/arXiv.1802.07664,https://arxiv.org/abs/1802.07664,"作者arXiv摘要；这里记录预印本DOI而不伪称最终期刊DOI","部分重分配与冗余空间最优配置已有解析结论","有限可达及指定业务约束须形成超出现有等量全局重分配的新增结论"
+L5,"To Wave or Not to Wave? Order Release Policies for Warehouses with an Automated Sorter",2010,10.1287/msom.1100.0291,https://pubsonline.informs.org/doi/10.1287/msom.1100.0291,"出版社作者/年份/页码/摘要核实；当前未重读全部正文","仓内拥堵、释放控制和实测数据验证已有成熟近邻","设施间派入要有真实接口；不能将仓内排序收益转称全网派入增量"
+L6,"Adaptive and risk recovery strategies for enhancing supply chain network resilience: a cascading failure perspective",2026,10.1007/s10479-026-07070-8,https://link.springer.com/article/10.1007/s10479-026-07070-8,"出版社OA摘要及引言核读","异质失效、过载/欠载、多状态和主动/被动恢复已有研究","不能只加状态或恢复机制；须固定自身服务语义并比较最近方法"

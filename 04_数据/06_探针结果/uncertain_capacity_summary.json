@@ -1,0 +1,18 @@
+{
+  "configurations": 2808,
+  "feasible": 798,
+  "independent_checks": 26,
+  "positive_uncertainty_cost": 412,
+  "safe_min_mismatches": 0,
+  "conservative_envelope_false_infeasible": 282,
+  "need_forecast_longer_than_transport_lag": 116,
+  "example_sums": {
+    "0": 22,
+    "1": 22,
+    "2": 21,
+    "3": 18
+  },
+  "elapsed_seconds": 23.966,
+  "empirical_validation": false,
+  "novelty_established": false
+}

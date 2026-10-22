@@ -1,0 +1,10 @@
+{
+  "configs": 2808,
+  "feasible": 798,
+  "premium_max": 2.0,
+  "premium_mean": 0.42857142857142855,
+  "premium_zero": 516,
+  "counterexample_prem0_nodom": 120,
+  "counterexample_nodom_prem0": 120,
+  "upper_gap_max": 4
+}

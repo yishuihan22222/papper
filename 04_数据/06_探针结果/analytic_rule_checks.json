@@ -1,0 +1,8 @@
+{
+  "configurations": 3888,
+  "scenario_paths": 8234,
+  "mismatches": 0,
+  "full_dp_used_in_rule": false,
+  "applicability": "Known receiver service calendar, one destination, common deadline, homogeneous units, no binding dispatch limit",
+  "mismatching_cases": []
+}

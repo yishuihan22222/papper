@@ -1,0 +1,218 @@
+{
+  "configurations": 2808,
+  "information_configurations": 11232,
+  "feasible_information_configurations": 3192,
+  "rule_dp_mismatches": 0,
+  "best_gated_dp_mismatches": 0,
+  "independent_checks": 283,
+  "check_kinds": {
+    "single_epoch_optimum": 52,
+    "rolling_flow": 182,
+    "rolling_flow_gate": 49
+  },
+  "all_independent_checks_passed": true,
+  "by_forecast": {
+    "0": {
+      "feasible": 798,
+      "single_strict_gap": 638,
+      "sum_exact": 10155,
+      "sum_single": 12426,
+      "max_single_gap": 10,
+      "rule_dp_mismatches": 0,
+      "best_gated_dp_mismatches": 0
+    },
+    "1": {
+      "feasible": 798,
+      "single_strict_gap": 647,
+      "sum_exact": 9792,
+      "sum_single": 11832,
+      "max_single_gap": 10,
+      "rule_dp_mismatches": 0,
+      "best_gated_dp_mismatches": 0
+    },
+    "2": {
+      "feasible": 798,
+      "single_strict_gap": 653,
+      "sum_exact": 9646,
+      "sum_single": 11625,
+      "max_single_gap": 10,
+      "rule_dp_mismatches": 0,
+      "best_gated_dp_mismatches": 0
+    },
+    "3": {
+      "feasible": 798,
+      "single_strict_gap": 654,
+      "sum_exact": 9596,
+      "sum_single": 11535,
+      "max_single_gap": 10,
+      "rule_dp_mismatches": 0,
+      "best_gated_dp_mismatches": 0
+    }
+  },
+  "thresholds": [
+    {
+      "f": 0,
+      "delta": 0,
+      "delta_over_H": 0.0,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 0,
+      "delta": 1,
+      "delta_over_H": 0.25,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 0,
+      "delta": 2,
+      "delta_over_H": 0.5,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 0,
+      "delta": 3,
+      "delta_over_H": 0.75,
+      "feasible": 798,
+      "no_guaranteed_plan": 0,
+      "worse_than_dp": 0
+    },
+    {
+      "f": 0,
+      "delta": 4,
+      "delta_over_H": 1.0,
+      "feasible": 798,
+      "no_guaranteed_plan": 0,
+      "worse_than_dp": 0
+    },
+    {
+      "f": 1,
+      "delta": 0,
+      "delta_over_H": 0.0,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 1,
+      "delta": 1,
+      "delta_over_H": 0.25,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 1,
+      "delta": 2,
+      "delta_over_H": 0.5,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 1,
+      "delta": 3,
+      "delta_over_H": 0.75,
+      "feasible": 798,
+      "no_guaranteed_plan": 0,
+      "worse_than_dp": 0
+    },
+    {
+      "f": 1,
+      "delta": 4,
+      "delta_over_H": 1.0,
+      "feasible": 798,
+      "no_guaranteed_plan": 0,
+      "worse_than_dp": 0
+    },
+    {
+      "f": 2,
+      "delta": 0,
+      "delta_over_H": 0.0,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 2,
+      "delta": 1,
+      "delta_over_H": 0.25,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 2,
+      "delta": 2,
+      "delta_over_H": 0.5,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 2,
+      "delta": 3,
+      "delta_over_H": 0.75,
+      "feasible": 798,
+      "no_guaranteed_plan": 0,
+      "worse_than_dp": 0
+    },
+    {
+      "f": 2,
+      "delta": 4,
+      "delta_over_H": 1.0,
+      "feasible": 798,
+      "no_guaranteed_plan": 0,
+      "worse_than_dp": 0
+    },
+    {
+      "f": 3,
+      "delta": 0,
+      "delta_over_H": 0.0,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 3,
+      "delta": 1,
+      "delta_over_H": 0.25,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 3,
+      "delta": 2,
+      "delta_over_H": 0.5,
+      "feasible": 440,
+      "no_guaranteed_plan": 358,
+      "worse_than_dp": 220
+    },
+    {
+      "f": 3,
+      "delta": 3,
+      "delta_over_H": 0.75,
+      "feasible": 798,
+      "no_guaranteed_plan": 0,
+      "worse_than_dp": 0
+    },
+    {
+      "f": 3,
+      "delta": 4,
+      "delta_over_H": 1.0,
+      "feasible": 798,
+      "no_guaranteed_plan": 0,
+      "worse_than_dp": 0
+    }
+  ],
+  "elapsed_seconds": 4.261,
+  "empirical_validation": false,
+  "literature_algorithm_reproduced": false,
+  "novel_algorithm_established": false
+}

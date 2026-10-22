@@ -1,0 +1,17 @@
+{
+  "linear": {
+    "interior": 1770,
+    "equals_worst": 480,
+    "n": 4720
+  },
+  "convex": {
+    "interior": 1836,
+    "equals_worst": 248,
+    "n": 4720
+  },
+  "tiered": {
+    "interior": 1796,
+    "equals_worst": 380,
+    "n": 4720
+  }
+}

@@ -1,0 +1,4219 @@
+{
+  "0": {
+    "config": {
+      "id": 416,
+      "f": 0,
+      "H": 4,
+      "lag": 1,
+      "batch": 3,
+      "recoveries": "[1, 2, 3]",
+      "calendars": "[[0, 0, 0, 2], [0, 0, 1, 1]]",
+      "feasible": true,
+      "exact_sum": 6,
+      "rule_sum": 6,
+      "rule_worst": 2,
+      "single_sum": 8,
+      "single_gap": 2,
+      "best_gated_sum": 6,
+      "optimal_deltas": "[3, 4]"
+    },
+    "single": {
+      "total": 8,
+      "roots": [
+        {
+          "initial_history": [
+            [
+              false
+            ],
+            [
+              0
+            ]
+          ],
+          "scenarios": [
+            [
+              1,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              1,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ]
+          ],
+          "total": 8,
+          "epoch": 1,
+          "actions": [
+            {
+              "history": [
+                [
+                  false,
+                  true
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "quantity": 0,
+              "scenarios": [
+                [
+                  1,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ],
+                [
+                  1,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "quantity": 2,
+              "scenarios": [
+                [
+                  2,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ],
+                [
+                  2,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  3,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ],
+                [
+                  3,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "rule": {
+      "feasible": true,
+      "total": 6,
+      "worst": 2,
+      "paths": [
+        {
+          "R": 1,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 0,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 1,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 0,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "R": 2,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 1,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                1,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 2,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 1,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "R": 3,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 2,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                1,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 3,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 2,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "observed_histories": 15
+    }
+  },
+  "1": {
+    "config": {
+      "id": 416,
+      "f": 1,
+      "H": 4,
+      "lag": 1,
+      "batch": 3,
+      "recoveries": "[1, 2, 3]",
+      "calendars": "[[0, 0, 0, 2], [0, 0, 1, 1]]",
+      "feasible": true,
+      "exact_sum": 6,
+      "rule_sum": 6,
+      "rule_worst": 2,
+      "single_sum": 8,
+      "single_gap": 2,
+      "best_gated_sum": 6,
+      "optimal_deltas": "[3, 4]"
+    },
+    "single": {
+      "total": 8,
+      "roots": [
+        {
+          "initial_history": [
+            [
+              false
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "scenarios": [
+            [
+              1,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              1,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ]
+          ],
+          "total": 8,
+          "epoch": 1,
+          "actions": [
+            {
+              "history": [
+                [
+                  false,
+                  true
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "quantity": 0,
+              "scenarios": [
+                [
+                  1,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  true
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "quantity": 0,
+              "scenarios": [
+                [
+                  1,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ]
+              ],
+              "quantity": 2,
+              "scenarios": [
+                [
+                  2,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ],
+                [
+                  3,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "quantity": 2,
+              "scenarios": [
+                [
+                  2,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  3,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "rule": {
+      "feasible": true,
+      "total": 6,
+      "worst": 2,
+      "paths": [
+        {
+          "R": 1,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 0,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 1,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 0,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "R": 2,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 1,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 2,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 1,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "R": 3,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 2,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 2,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  2
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 3,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 2,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "observed_histories": 17
+    }
+  },
+  "2": {
+    "config": {
+      "id": 416,
+      "f": 2,
+      "H": 4,
+      "lag": 1,
+      "batch": 3,
+      "recoveries": "[1, 2, 3]",
+      "calendars": "[[0, 0, 0, 2], [0, 0, 1, 1]]",
+      "feasible": true,
+      "exact_sum": 6,
+      "rule_sum": 6,
+      "rule_worst": 2,
+      "single_sum": 7,
+      "single_gap": 1,
+      "best_gated_sum": 6,
+      "optimal_deltas": "[3, 4]"
+    },
+    "single": {
+      "total": 7,
+      "roots": [
+        {
+          "initial_history": [
+            [
+              false
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "scenarios": [
+            [
+              1,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ]
+          ],
+          "total": 3,
+          "epoch": 2,
+          "actions": [
+            {
+              "history": [
+                [
+                  false,
+                  true,
+                  true
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "quantity": 0,
+              "scenarios": [
+                [
+                  1,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  false,
+                  true
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "quantity": 1,
+              "scenarios": [
+                [
+                  2,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "quantity": 2,
+              "scenarios": [
+                [
+                  3,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "initial_history": [
+            [
+              false
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "scenarios": [
+            [
+              1,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ]
+          ],
+          "total": 4,
+          "epoch": 1,
+          "actions": [
+            {
+              "history": [
+                [
+                  false,
+                  true
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "quantity": 0,
+              "scenarios": [
+                [
+                  1,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "quantity": 2,
+              "scenarios": [
+                [
+                  2,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  3,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "rule": {
+      "feasible": true,
+      "total": 6,
+      "worst": 2,
+      "paths": [
+        {
+          "R": 1,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 0,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 1,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 0,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "R": 2,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 1,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 2,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 1,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "R": 3,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 2,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 2,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  2
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 3,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 2,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "observed_histories": 18
+    }
+  },
+  "3": {
+    "config": {
+      "id": 416,
+      "f": 3,
+      "H": 4,
+      "lag": 1,
+      "batch": 3,
+      "recoveries": "[1, 2, 3]",
+      "calendars": "[[0, 0, 0, 2], [0, 0, 1, 1]]",
+      "feasible": true,
+      "exact_sum": 6,
+      "rule_sum": 6,
+      "rule_worst": 2,
+      "single_sum": 7,
+      "single_gap": 1,
+      "best_gated_sum": 6,
+      "optimal_deltas": "[3, 4]"
+    },
+    "single": {
+      "total": 7,
+      "roots": [
+        {
+          "initial_history": [
+            [
+              false
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ]
+          ],
+          "scenarios": [
+            [
+              1,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ]
+          ],
+          "total": 3,
+          "epoch": 2,
+          "actions": [
+            {
+              "history": [
+                [
+                  false,
+                  true,
+                  true
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "quantity": 0,
+              "scenarios": [
+                [
+                  1,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  false,
+                  true
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "quantity": 1,
+              "scenarios": [
+                [
+                  2,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "quantity": 2,
+              "scenarios": [
+                [
+                  3,
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "initial_history": [
+            [
+              false
+            ],
+            [
+              0,
+              0,
+              1,
+              1
+            ]
+          ],
+          "scenarios": [
+            [
+              1,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                0,
+                1,
+                1
+              ]
+            ]
+          ],
+          "total": 4,
+          "epoch": 1,
+          "actions": [
+            {
+              "history": [
+                [
+                  false,
+                  true
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "quantity": 0,
+              "scenarios": [
+                [
+                  1,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              ]
+            },
+            {
+              "history": [
+                [
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "quantity": 2,
+              "scenarios": [
+                [
+                  2,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  3,
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "rule": {
+      "feasible": true,
+      "total": 6,
+      "worst": 2,
+      "paths": [
+        {
+          "R": 1,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 0,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 1,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 0,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 1,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "R": 2,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 1,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 2,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 1,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 2,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "R": 3,
+          "calendar": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sent": 2,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 2,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  2
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "R": 3,
+          "calendar": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "sent": 2,
+          "records": [
+            {
+              "t": 0,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                1,
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 1,
+              "state": [
+                3,
+                0,
+                [
+                  0
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                2,
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 2,
+              "state": [
+                2,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 1,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "t": 3,
+              "state": [
+                1,
+                0,
+                [
+                  1
+                ]
+              ],
+              "dispatch": 0,
+              "gated": false,
+              "plan_recovery": 3,
+              "consistent_calendars": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              ],
+              "recovery_support": [
+                3
+              ],
+              "visible_calendar": [
+                0,
+                0,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "observed_histories": 18
+    }
+  }
+}

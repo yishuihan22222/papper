@@ -1,0 +1,151 @@
+{
+  "initial_formula_checks": 2428,
+  "initial_formula_mismatches": [],
+  "minimax_formula_mismatches": [],
+  "finite_dispatch_cases": 324,
+  "finite_dispatch_feasible": 102,
+  "finite_dispatch_safe_matches": 102,
+  "timing_checks": [
+    {
+      "config": {
+        "horizon": 3,
+        "batch": 2,
+        "local_rate": 1,
+        "capacities": [
+          2,
+          0,
+          0
+        ],
+        "recoveries": [
+          3
+        ],
+        "lag": 0,
+        "dispatch_limit": 100
+      },
+      "expected_feasible": true,
+      "solved_feasible": true
+    },
+    {
+      "config": {
+        "horizon": 3,
+        "batch": 2,
+        "local_rate": 1,
+        "capacities": [
+          2,
+          0,
+          0
+        ],
+        "recoveries": [
+          3
+        ],
+        "lag": 1,
+        "dispatch_limit": 100
+      },
+      "expected_feasible": false,
+      "solved_feasible": false
+    },
+    {
+      "config": {
+        "horizon": 3,
+        "batch": 2,
+        "local_rate": 1,
+        "capacities": [
+          0,
+          2,
+          0
+        ],
+        "recoveries": [
+          3
+        ],
+        "lag": 1,
+        "dispatch_limit": 100
+      },
+      "expected_feasible": true,
+      "solved_feasible": true
+    },
+    {
+      "config": {
+        "horizon": 3,
+        "batch": 2,
+        "local_rate": 1,
+        "capacities": [
+          0,
+          2,
+          0
+        ],
+        "recoveries": [
+          3
+        ],
+        "lag": 2,
+        "dispatch_limit": 100
+      },
+      "expected_feasible": false,
+      "solved_feasible": false
+    },
+    {
+      "config": {
+        "horizon": 3,
+        "batch": 2,
+        "local_rate": 1,
+        "capacities": [
+          0,
+          0,
+          2
+        ],
+        "recoveries": [
+          3
+        ],
+        "lag": 2,
+        "dispatch_limit": 100
+      },
+      "expected_feasible": true,
+      "solved_feasible": true
+    },
+    {
+      "config": {
+        "horizon": 3,
+        "batch": 2,
+        "local_rate": 1,
+        "capacities": [
+          0,
+          0,
+          2
+        ],
+        "recoveries": [
+          3
+        ],
+        "lag": 3,
+        "dispatch_limit": 100
+      },
+      "expected_feasible": false,
+      "solved_feasible": false
+    }
+  ],
+  "note_counterexamples": {
+    "final_batch_time": {
+      "t": 1,
+      "tau": 1,
+      "x": 4,
+      "K": 1,
+      "y0_finish": 6,
+      "y1_finish": 5,
+      "derivative_wrt_y": -1
+    },
+    "boundary": {
+      "H": 10,
+      "tau": 2,
+      "x": 4,
+      "beta": 1,
+      "zero_advance_latest_wait": 4,
+      "all_advance_boundary": 8,
+      "point": "H-tau-x/beta makes y_min zero, not x."
+    },
+    "streaming_rate": {
+      "m": 2,
+      "K": 2,
+      "harmonic": 1,
+      "pipeline_steady_rate": 2,
+      "point": "Harmonic rate requires no overlap across the entire batch."
+    }
+  }
+}

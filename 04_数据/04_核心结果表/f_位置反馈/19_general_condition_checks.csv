@@ -1,0 +1,145 @@
+﻿check,passed
+"general quantities (5.0, 2.0, 0.1, 0.025, 'both_over', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.1, 0.025, 'both_over', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.1, 0.025, 'both_over')",True
+"general quantities (5.0, 2.0, 0.1, 0.025, 'separated', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.1, 0.025, 'separated', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.1, 0.025, 'separated')",True
+"general quantities (5.0, 2.0, 0.1, 0.025, 'neither_over', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.1, 0.025, 'neither_over', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.1, 0.025, 'neither_over')",True
+"general quantities (5.0, 2.0, 0.1, 0.05, 'both_over', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.1, 0.05, 'both_over', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.1, 0.05, 'both_over')",True
+"general quantities (5.0, 2.0, 0.1, 0.05, 'separated', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.1, 0.05, 'separated', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.1, 0.05, 'separated')",True
+"general quantities (5.0, 2.0, 0.1, 0.05, 'neither_over', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.1, 0.05, 'neither_over', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.1, 0.05, 'neither_over')",True
+"general quantities (5.0, 2.0, 0.2, 0.025, 'both_over', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.2, 0.025, 'both_over', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.2, 0.025, 'both_over')",True
+"general quantities (5.0, 2.0, 0.2, 0.025, 'separated', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.2, 0.025, 'separated', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.2, 0.025, 'separated')",True
+"general quantities (5.0, 2.0, 0.2, 0.025, 'neither_over', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.2, 0.025, 'neither_over', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.2, 0.025, 'neither_over')",True
+"general quantities (5.0, 2.0, 0.2, 0.05, 'both_over', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.2, 0.05, 'both_over', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.2, 0.05, 'both_over')",True
+"general quantities (5.0, 2.0, 0.2, 0.05, 'separated', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.2, 0.05, 'separated', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.2, 0.05, 'separated')",True
+"general quantities (5.0, 2.0, 0.2, 0.05, 'neither_over', 'small_receiver_excess')",True
+"general quantities (5.0, 2.0, 0.2, 0.05, 'neither_over', 'large_receiver_excess')",True
+"general terminal (5.0, 2.0, 0.2, 0.05, 'neither_over')",True
+"general quantities (5.0, 4.0, 0.1, 0.025, 'both_over', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.1, 0.025, 'both_over', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.1, 0.025, 'both_over')",True
+"general quantities (5.0, 4.0, 0.1, 0.025, 'separated', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.1, 0.025, 'separated', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.1, 0.025, 'separated')",True
+"general quantities (5.0, 4.0, 0.1, 0.025, 'neither_over', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.1, 0.025, 'neither_over', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.1, 0.025, 'neither_over')",True
+"general quantities (5.0, 4.0, 0.1, 0.05, 'both_over', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.1, 0.05, 'both_over', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.1, 0.05, 'both_over')",True
+"general quantities (5.0, 4.0, 0.1, 0.05, 'separated', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.1, 0.05, 'separated', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.1, 0.05, 'separated')",True
+"general quantities (5.0, 4.0, 0.1, 0.05, 'neither_over', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.1, 0.05, 'neither_over', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.1, 0.05, 'neither_over')",True
+"general quantities (5.0, 4.0, 0.2, 0.025, 'both_over', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.2, 0.025, 'both_over', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.2, 0.025, 'both_over')",True
+"general quantities (5.0, 4.0, 0.2, 0.025, 'separated', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.2, 0.025, 'separated', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.2, 0.025, 'separated')",True
+"general quantities (5.0, 4.0, 0.2, 0.025, 'neither_over', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.2, 0.025, 'neither_over', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.2, 0.025, 'neither_over')",True
+"general quantities (5.0, 4.0, 0.2, 0.05, 'both_over', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.2, 0.05, 'both_over', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.2, 0.05, 'both_over')",True
+"general quantities (5.0, 4.0, 0.2, 0.05, 'separated', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.2, 0.05, 'separated', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.2, 0.05, 'separated')",True
+"general quantities (5.0, 4.0, 0.2, 0.05, 'neither_over', 'small_receiver_excess')",True
+"general quantities (5.0, 4.0, 0.2, 0.05, 'neither_over', 'large_receiver_excess')",True
+"general terminal (5.0, 4.0, 0.2, 0.05, 'neither_over')",True
+"general quantities (10.0, 2.0, 0.1, 0.025, 'both_over', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.1, 0.025, 'both_over', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.1, 0.025, 'both_over')",True
+"general quantities (10.0, 2.0, 0.1, 0.025, 'separated', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.1, 0.025, 'separated', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.1, 0.025, 'separated')",True
+"general quantities (10.0, 2.0, 0.1, 0.025, 'neither_over', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.1, 0.025, 'neither_over', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.1, 0.025, 'neither_over')",True
+"general quantities (10.0, 2.0, 0.1, 0.05, 'both_over', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.1, 0.05, 'both_over', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.1, 0.05, 'both_over')",True
+"general quantities (10.0, 2.0, 0.1, 0.05, 'separated', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.1, 0.05, 'separated', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.1, 0.05, 'separated')",True
+"general quantities (10.0, 2.0, 0.1, 0.05, 'neither_over', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.1, 0.05, 'neither_over', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.1, 0.05, 'neither_over')",True
+"general quantities (10.0, 2.0, 0.2, 0.025, 'both_over', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.2, 0.025, 'both_over', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.2, 0.025, 'both_over')",True
+"general quantities (10.0, 2.0, 0.2, 0.025, 'separated', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.2, 0.025, 'separated', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.2, 0.025, 'separated')",True
+"general quantities (10.0, 2.0, 0.2, 0.025, 'neither_over', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.2, 0.025, 'neither_over', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.2, 0.025, 'neither_over')",True
+"general quantities (10.0, 2.0, 0.2, 0.05, 'both_over', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.2, 0.05, 'both_over', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.2, 0.05, 'both_over')",True
+"general quantities (10.0, 2.0, 0.2, 0.05, 'separated', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.2, 0.05, 'separated', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.2, 0.05, 'separated')",True
+"general quantities (10.0, 2.0, 0.2, 0.05, 'neither_over', 'small_receiver_excess')",True
+"general quantities (10.0, 2.0, 0.2, 0.05, 'neither_over', 'large_receiver_excess')",True
+"general terminal (10.0, 2.0, 0.2, 0.05, 'neither_over')",True
+"general quantities (10.0, 4.0, 0.1, 0.025, 'both_over', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.1, 0.025, 'both_over', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.1, 0.025, 'both_over')",True
+"general quantities (10.0, 4.0, 0.1, 0.025, 'separated', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.1, 0.025, 'separated', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.1, 0.025, 'separated')",True
+"general quantities (10.0, 4.0, 0.1, 0.025, 'neither_over', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.1, 0.025, 'neither_over', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.1, 0.025, 'neither_over')",True
+"general quantities (10.0, 4.0, 0.1, 0.05, 'both_over', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.1, 0.05, 'both_over', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.1, 0.05, 'both_over')",True
+"general quantities (10.0, 4.0, 0.1, 0.05, 'separated', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.1, 0.05, 'separated', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.1, 0.05, 'separated')",True
+"general quantities (10.0, 4.0, 0.1, 0.05, 'neither_over', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.1, 0.05, 'neither_over', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.1, 0.05, 'neither_over')",True
+"general quantities (10.0, 4.0, 0.2, 0.025, 'both_over', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.2, 0.025, 'both_over', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.2, 0.025, 'both_over')",True
+"general quantities (10.0, 4.0, 0.2, 0.025, 'separated', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.2, 0.025, 'separated', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.2, 0.025, 'separated')",True
+"general quantities (10.0, 4.0, 0.2, 0.025, 'neither_over', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.2, 0.025, 'neither_over', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.2, 0.025, 'neither_over')",True
+"general quantities (10.0, 4.0, 0.2, 0.05, 'both_over', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.2, 0.05, 'both_over', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.2, 0.05, 'both_over')",True
+"general quantities (10.0, 4.0, 0.2, 0.05, 'separated', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.2, 0.05, 'separated', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.2, 0.05, 'separated')",True
+"general quantities (10.0, 4.0, 0.2, 0.05, 'neither_over', 'small_receiver_excess')",True
+"general quantities (10.0, 4.0, 0.2, 0.05, 'neither_over', 'large_receiver_excess')",True
+"general terminal (10.0, 4.0, 0.2, 0.05, 'neither_over')",True

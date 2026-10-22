@@ -1,0 +1,8 @@
+{
+  "independent_program_checks": 82,
+  "feasible_checks": 65,
+  "nonanticipative_history_checks": 1132,
+  "all_passed": true,
+  "shared_dp_transition_in_milp": false,
+  "shared_observation_group_function_in_milp": false
+}

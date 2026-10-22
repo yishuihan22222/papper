@@ -1,0 +1,18 @@
+{
+  "completed": true,
+  "closures": 840,
+  "shock_closures": 480,
+  "control_closures": 360,
+  "policy_pairs": 420,
+  "run_checks": 4777,
+  "independent_checks": 9785,
+  "independent_passed": 9785,
+  "historical_gamma1_checks": 72,
+  "cold_starts": 18,
+  "B_service_decreases_when_gamma_increases": 2,
+  "C_weak_dominance": true,
+  "C_gamma_invariant": true,
+  "gamma_rho_B_C_equal": true,
+  "all_parameters_empirically_calibrated": false,
+  "independent_real_samples": 0
+}

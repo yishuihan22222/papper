@@ -1,0 +1,9 @@
+﻿source,target,coupling_type,weight,综合时空阻抗
+武汉市,孝感市,city_gravity_link,0.8578,0.125
+武汉市,鄂州市,city_gravity_link,0.3616,0.576205
+武汉市,黄冈市,city_gravity_link,0.3883,0.567132
+武汉市,咸宁市,city_gravity_link,0.2211,0.722281
+武汉市,黄石市,city_gravity_link,0.2664,0.88899
+武汉市,仙桃市,city_gravity_link,0.1647,0.753049
+武汉市,天门市,city_gravity_link,0.1643,1.296465
+武汉市,潜江市,city_gravity_link,0.141,1.5

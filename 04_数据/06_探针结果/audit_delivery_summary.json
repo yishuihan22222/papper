@@ -1,0 +1,12 @@
+{
+  "verified_local_links": 10,
+  "original_checks": 50,
+  "additional_checks": 104,
+  "all_passed": true,
+  "report_sha256": {
+    "前瞻边界核对_数学与近五年近邻_20261022.md": "c6b4b30c078bec1dc2ed8a80aee5ecb6f5150ad956e875ff0b30451dd526ffa9",
+    "小创新定位修订_等待分流与容量信息_20261022.md": "46491d695bc60c9d89ddbad6cc2d964142773971396dd13cdceeb11a5e4e5eea",
+    "outputs\\incremental_contribution_20261022\\前瞻信息边界_命题与证明.md": "270b0605ae483ad836803ae5070ed28313af1e8f06fdf8e6225186cb959441a4",
+    "outputs\\incremental_contribution_20261022\\检索记录_前瞻边界核对.md": "2e8fb7b2ea873610b7a83c9866e1a147b93dcbfd37e90f102c09d915d428b0df"
+  }
+}

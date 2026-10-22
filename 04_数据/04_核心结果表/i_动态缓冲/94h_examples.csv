@@ -1,0 +1,16 @@
+﻿example,policy,completed,accepted,rejected,waiting_units,blocked_slots,hol_missed_slots,entry_full_slots,blockage_clearances,terminal_inventory,cost_ticks,cost
+buffer_retains_peak,direct_only_optimal,1,1,1,1,0,0,0,0,0,11,1.1
+buffer_retains_peak,max_accept_fifo,2,2,0,3,1,0,0,1,0,3,0.3
+buffer_retains_peak,rolling_2_perfect,1,1,1,1,0,0,0,0,0,11,1.1
+buffer_retains_peak,offline_fifo,2,2,0,3,1,0,0,1,0,3,0.3
+buffer_retains_peak,offline_bypass,2,2,0,3,1,0,0,1,0,3,0.3
+waiting_can_cost_more,direct_only_optimal,2,2,2,2,0,0,0,0,0,30,3.0
+waiting_can_cost_more,max_accept_fifo,3,3,1,5,2,0,0,1,0,35,3.5
+waiting_can_cost_more,rolling_2_perfect,2,2,2,2,0,0,0,0,0,30,3.0
+waiting_can_cost_more,offline_fifo,2,2,2,2,0,0,0,0,0,30,3.0
+waiting_can_cost_more,offline_bypass,2,2,2,2,0,0,0,0,0,30,3.0
+head_of_line_recovery,direct_only_optimal,2,2,1,3,0,0,0,0,0,13,1.3
+head_of_line_recovery,max_accept_fifo,3,3,0,7,2,1,1,1,0,7,0.7
+head_of_line_recovery,rolling_2_perfect,1,1,2,1,0,0,0,0,0,21,2.1
+head_of_line_recovery,offline_fifo,3,3,0,7,2,1,1,1,0,7,0.7
+head_of_line_recovery,offline_bypass,3,3,0,6,2,0,0,1,0,6,0.6

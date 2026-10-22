@@ -1,0 +1,2655 @@
+{
+  "0": {
+    "result": [
+      3,
+      22,
+      [
+        2
+      ]
+    ],
+    "traces": [
+      {
+        "R": 1,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 2,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 2,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 3,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 3,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 4,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 1,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 2,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 2,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 3,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 3,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 4,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1": {
+    "result": [
+      3,
+      22,
+      [
+        2
+      ]
+    ],
+    "traces": [
+      {
+        "R": 1,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 2,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 2,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 3,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 3,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 4,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 1,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 2,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 2,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 3,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 3,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 4,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "result": [
+      3,
+      21,
+      [
+        2
+      ]
+    ],
+    "traces": [
+      {
+        "R": 1,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 2,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 2,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 3,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 3,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 4,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 1,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 2,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 2,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 2,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 2,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 3,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 2,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 3,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 4,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 2,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "result": [
+      3,
+      18,
+      [
+        2,
+        0
+      ]
+    ],
+    "traces": [
+      {
+        "R": 1,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 2,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 2,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 3,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 3,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 4,
+        "calendar": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              0
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 1,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 0,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 3,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 0,
+            "local_left": 2,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 0,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 1,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 2,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 1,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 3,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 0,
+            "local_left": 2,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 1,
+            "local_left": 1,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 2,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 1,
+            "remote": 0,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 3,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 3,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 0,
+            "local_left": 2,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": 3,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "R": 4,
+        "calendar": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "sent": 3,
+        "rows": [
+          {
+            "t": 0,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 0,
+            "local_left": 3,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          },
+          {
+            "t": 1,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 1,
+            "local": 0,
+            "remote": 0,
+            "local_left": 2,
+            "remote_queue": 0,
+            "pipe": [
+              1
+            ]
+          },
+          {
+            "t": 2,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 2,
+            "local": 0,
+            "remote": 1,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              2
+            ]
+          },
+          {
+            "t": 3,
+            "R_revealed": null,
+            "calendar_prefix": [
+              0,
+              2,
+              1,
+              2
+            ],
+            "dispatch": 0,
+            "local": 0,
+            "remote": 2,
+            "local_left": 0,
+            "remote_queue": 0,
+            "pipe": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

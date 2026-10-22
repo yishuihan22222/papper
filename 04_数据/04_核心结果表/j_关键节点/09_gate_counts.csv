@@ -1,0 +1,9 @@
+﻿domain,gate,conditions
+geographic_proxy,both_full_failure,3
+geographic_proxy,different_service,1
+geographic_proxy,overload_unreachable_or_zero_excess,132
+geographic_proxy,reconverged_nonfull,2
+geographic_proxy,same_first_update_for_two_probes,30
+synthetic,both_full_failure,30
+synthetic,overload_unreachable_or_zero_excess,366
+synthetic,same_first_update_for_two_probes,84

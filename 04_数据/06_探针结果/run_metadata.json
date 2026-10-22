@@ -1,0 +1,25 @@
+{
+  "input_sha256": "4c229541983ae5a5fad1c7278bfe6efdb3bd0106f27cc62de4e89eb3d5698ab1",
+  "configurations": 2808,
+  "forecast_horizons": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "audit_grid_ids": [
+    "416",
+    "1044",
+    "1364",
+    "1579",
+    "2140",
+    "2353",
+    "2596",
+    "2806"
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "design_sha256": "98e073cc854e5ba9b3c22d316f9e7c8d6a419871e43ad813233387992fd9a432",
+  "code_sha256": "8ad2112763a4027221587db36fe01358f9b5221559e2e2044ee378b6609e8f32"
+}

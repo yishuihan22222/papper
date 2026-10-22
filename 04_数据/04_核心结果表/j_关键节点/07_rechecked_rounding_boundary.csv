@@ -1,0 +1,4 @@
+﻿job_id,old_run_id,case_id,control,theta,gamma,external_multiplier,arm,old_service,new_service,old_failed,new_failed,service_change_pp,failed_set_changed
+610,610,no_damage_channel_disruption,True,0.42,1.0,2.0,B,0.0,0.9999999999998984,246,0,99.99999999998984,True
+612,612,no_damage_random,True,0.42,1.0,2.0,B,0.0,0.9999999999998984,246,0,99.99999999998984,True
+614,614,no_damage_spatial_cluster,True,0.42,1.0,2.0,B,0.0,0.9999999999998984,246,0,99.99999999998984,True

@@ -1,0 +1,43 @@
+{
+  "completed_scope": "Two bounded feasibility pilots; innovation unresolved",
+  "phase1_configurations": 3888,
+  "phase2_configurations": 2808,
+  "phase2_closed_form_feasibility_checks": 2808,
+  "original_data_preserved": {
+    "E:\\sci23\\数据及代码-TJJM20260523014641\\数据及代码\\data\\04c_武汉边代理属性_候选全边.csv": true,
+    "E:\\sci23\\数据及代码-TJJM20260523014641\\项目结果\\processing_unit_rectification_v7_20261021\\model_inputs\\nodes.csv": true,
+    "E:\\sci23\\数据及代码-TJJM20260523014641\\项目结果\\processing_unit_rectification_v7_20261021\\model_inputs\\edges.csv": true
+  },
+  "local_links_checked": 14,
+  "files": {
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\analytic_rule_checks.json": "20da1f1395982d76ac3ec2afca1a441625783fe8e90ceb0eabafea629bf0cc2f",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\case_studies.json": "9877468797804f1872816fab5a02c1010d68cad9b383d18562607e36da578d5d",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\code\\analytic_rule_check.py": "6e8d1f21c3dbe6103b4b44df6aceaa4761ebf3b8fa1f1ac7bf4680769acb593f",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\code\\finalize.py": "2f1538aa84e1de8f21bc5ef6f1c29aabe09eb0899d59306ecfa10953bedac542",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\code\\pilot.py": "2b4dcba89e7089586dccf1a87948b874b62f447574371da005bc37e64d615bd4",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\code\\structural_checks.py": "f557ef98998b5940ef49de8fac75295169cef537c6dbfcd77b5b730d36aac8c6",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\code\\uncertain_capacity.py": "663dbc84840c40c417231d6ab6ac6905be805ef9b591caacf0ca52dec6cfd7d0",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\code\\uncertainty_verification.py": "d9861f73fd663beae7b8d671b8406eee3588cf8c4787420ecd56c5d8bb90eee3",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\design.json": "44e4117e7dd85561fa7391879d10c903b8961c3f0d5f4fe148d8d52120069cd8",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\dispatch_limit_ablation.csv": "2d9d20fe2ec9537aa70b7b6f9a9c9a477907c96fb75fa4aa7156ca938d967555",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\forecast_information_example.json": "af90301fa119b93d76ecd55df848e5c5776d94dd298cc3661fa064ce19f66de8",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\grid.csv": "28d2f621c0bf71302770a215682f39b0b7af162eca0c632e49044ccf3aadca00",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\independent_checks.csv": "7ae02fa704416ef2ff1d0257ebd6ebbd718a773cf52333a92463ab3b16f0ec69",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\nonrectangular_calendar_example.json": "cb6dda8e2c095caed789436bf0f78cc4bd8ee16cc11b5c93896c0d56aac5bdec",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\README.md": "adbe6e72facd0d8c4cac61d455820449135beb210c4cc488f2374b44fb87dc7c",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\run_pilot.ps1": "3937159e272bc327a945ee6a5b36f62ad5246d059beee4065d30d3ff36bc779d",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\safe_min_mismatches.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\structural_checks.json": "1e331141f95284f0f220c3cd1252bc048637c5ddb03cbbf9f4ad611ea6900546",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\summary.json": "f3b08a7d1d596ee245ac385a4a2b5f331997a621fc2147cfadbb23dfbfab215c",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\uncertain_capacity_design.json": "d44a4a8e8d27fb3bf8017755b3f79ffe2e6e62a22a161470e4900c300eebdccf",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\uncertain_capacity_extended_checks.csv": "c7ab426a2f95eedb9235c74062bfc641cc0897e24cf55ff0063e17e9f9d24309",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\uncertain_capacity_grid.csv": "4c229541983ae5a5fad1c7278bfe6efdb3bd0106f27cc62de4e89eb3d5698ab1",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\uncertain_capacity_independent_checks.csv": "ccdc7d46b27715e40824256d7fd823c9616ab6f2c43eda82373945e6d955148e",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\uncertain_capacity_summary.json": "d73ec382ccb4fea77841f4b4bce8af7d8d502c9567012758a992d3a0bddf3e79",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\uncertainty_verification_summary.json": "11a5679f01f83309642ed32e8a6201f9f7e18211a32053a02847792451d5248b",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\数学边界与两时钟核查.md": "f43999dcb7865736a884acc77da6c048d0d6098718dab8d4523095c21640d7d6",
+    "E:\\sci23\\outputs\\wait_divert_pilot_20261022\\近五年近邻核查.md": "0561209a64eef395f617463397109d8f23dfff09edb8d6adf21e4a521e69573e",
+    "E:\\sci23\\主线第一轮试跑_20261022.md": "a1711426b71ab90f7954467e0d52e30511893d0f10e9571cd2b139aa88d1796e",
+    "E:\\sci23\\主线第二轮试跑_未来接收余量不确定_20261022.md": "d2991c8bf646738a631ad2bbc99a386c828c526ead4350f2688b2db7dfd14892"
+  }
+}

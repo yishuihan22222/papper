@@ -1,0 +1,7 @@
+{
+  "initial_feasibility_checks": 11232,
+  "formula_trajectory_state_checks": 83648,
+  "individual_scenario_milp_checks": 88,
+  "all_passed": true,
+  "counts_are_not_distinct_real_world_cases": true
+}

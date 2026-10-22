@@ -1,0 +1,8 @@
+﻿item,value
+upper_nodes,9.0
+upper_peripheral_nodes,8.0
+upper_edges,8.0
+lower_nodes,246.0
+cross_edges,80.0
+identified_portal_nodes,111.0
+avg_cross_layer_weight,0.7722
